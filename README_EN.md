@@ -411,12 +411,13 @@ The postulate explicitly lists 9 conditions under which the theoretical framewor
 
 ## XXIX. Master Consistency Chain
 
-$\mathcal{M}_5 \to$ orbifold $\to B_3 \to \nabla_5 \wedge \to H_4 \to$ zero-mode $\to h_3 \to$ sector $\to a \to Z_a = \langle \epsilon_{top} \rangle_y \to S_{eff} \to a F \wedge F \to J_{eff} \to \delta g_{55}(t) \to \tau_{ij} = 0 \to \Delta B_{\text{Earth}}$.
+$$\mathcal{M}_5 \xrightarrow{\text{orbifold}} \mathbf{B}_3 \xrightarrow{\nabla_5\wedge} \mathbf{H}_4 \xrightarrow{\text{zero mode}} \mathbf{h}_3 \xrightarrow{\mathbf{h}_3=vI_4} a \xrightarrow{Z_a=\langle\epsilon_{\text{top}}\rangle_y} S_{\text{eff}} \xrightarrow{aF\wedge F} \mathbf{J}_{\text{eff}} \xrightarrow{\delta g_{55}(t)} \tau_{ij}=0 \longrightarrow \Delta\mathbf{B}_\oplus$$
 
 Each arrow carries a distinct epistemological weight.
 
-> [!NOTE]
-> Final identities: mathematical identity $\neq$ dynamic consequence $\neq$ physical hypothesis $\neq$ experimental evidence. Internal consistency does NOT imply physical reality.
+$$\text{mathematical identity} \;\neq\; \text{dynamic consequence} \;\neq\; \text{physical hypothesis} \;\neq\; \text{experimental evidence}$$
+
+$$\text{internal consistency} \;\not\Rightarrow\; \text{physical reality}$$
 
 ---
 
@@ -483,6 +484,16 @@ Under the temporal approximation $\nabla_4 a \approx -e_0 \dot{a}$, using $\star
 | $\omega_{resp} \sim c/R_0$ | Derived | Breathing mode natural frequency |
 | $\theta_K(x,t)$ | Dynamical Field | Klein Bubble deformation angle |
 | $F_K(t)$ | Hypothetical Source | Source term for the breathing mode |
+
+---
+
+## Version History
+
+| Version | Notes |
+| :--- | :--- |
+| V2.7.6.7 | Original, containing sign error in duality convention. |
+| V2.7.6.8 | Sign fix, $g_{a\gamma\gamma}/2$ normalisation, Blue/Red Team audit. |
+| V2.7.6.9 | Explicit $Z_a$ derivation, global response mechanism, Klein Bubble rotor algebra. |
 
 ---
 
