@@ -57,10 +57,14 @@
 
 The framework models the universe as a five-dimensional manifold $\mathcal{M}_5$ with an extra dimension compactified via the orbifold $\mathcal{M}_5/\mathbb{Z}_2$. A zero-mode sector of a geometric curvature field (3-form $B_3$) is selected that behaves, under strict conditions, as a 4D scalar field coupled to the brane's electromagnetic field.
 
-V3.0.0.0 closes three critical gaps:
-- **Gap I**: Explicit derivation of $Z_a$ — the effective kinetic coefficient equals the $y$-average of $\epsilon_{top}$ over the extra dimension.
-- **Gap II**: Global brane response — the orbifold breathing mode $\delta g_{55}(t)$ provides the first dynamic derivation of $\tau_{ij}=0$ without causality violation.
-- **Gap III**: Klein Bubble algebra — formalised as rotor $R_K = \exp(\theta_K/2 \, e_\alpha e_5)$ in $Cl_{1,4}^+$ with compact support.
+V3.0.0.7 (Definitive Edition) closes all remaining critical gaps:
+- **Gap I**: Exact Topological Mass via BPS invariance ($M_{\mathcal{N}} = 8 m_\theta f_\theta$).
+- **Gap II**: Experimental Viability under CAST/ADMX bounds and falsifiability via IAXO.
+- **Gap III**: Magnetic Prediction $\Delta\mathbf{B}_\oplus$ strictly bounded by empirical IAGA data.
+- **Gap IV**: Geometric Origin of Dark Matter via Kaluza-Klein Tower condensation.
+- **Gap V**: Bulk-Brane Eversion dynamics (Israel Junction Conditions + Sine-Gordon Breather).
+- **Gap VI**: Unbreakable Global 5D Stability (Topological Charge + BPS Bound + Radion mass).
+- **Gap VII**: Topological Justification of exactly 5 Dimensions via the Whitney Immersion Theorem ($2m-1=5$).
 
 ---
 
@@ -552,6 +556,7 @@ Under the temporal approximation $\nabla_4 a \approx -e_0 \dot{a}$, using $\star
 | V2.7.6.7 | Original, containing sign error in duality convention. |
 | V2.7.6.8 | Sign fix, $g_{a\gamma\gamma}/2$ normalisation, Blue/Red Team audit. |
 | V3.0.0.0 | Explicit $Z_a$ derivation, global response mechanism, Klein Bubble rotor algebra. |
+| **V3.0.0.7** | **🆕 BPS Mass ($M_\mathcal{N}$); 🆕 Viable ALP window (CAST/IAXO); 🆕 IAGA magnetic bound $\Delta B_\oplus$; 🆕 KK Tower = Dark Matter; 🆕 Bulk-brane coupling (Israel+Sine-Gordon); 🆕 Global 5D Stability; 🆕 Whitney Immersion Theorem (D=5)** |
 
 ---
 
@@ -583,7 +588,6 @@ Sanchez Moreno, R. A. (2026). *5D Geometrodynamic Architecture on an S¹/ℤ₂ 
 | Explicit $Z_a$ Derivation | Linked 4D kinetic term to 5D topological profile average (Gap I). |
 | Global Response Mechanism | Explained simultaneous signals via fibre background deformation (Gap II). |
 | Klein Bubble Algebra | Formalised compact topological defects using $Cl_{1,4}^+$ rotors (Gap III). |
-
 
 ## License
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
