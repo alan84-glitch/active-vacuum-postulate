@@ -1,6 +1,6 @@
 # 5D Geometrodynamic Architecture on an S¹/ℤ₂ Orbifold: 3-Form Gauge Coupling, Selected Scalar Sector, Dimensional Reduction, Electromagnetic Coupling, Global Brane Response Mechanism and Transient Topological Signatures
 
-![Version](https://img.shields.io/badge/version-V3.0.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-V3.0.0.7-blue.svg)
 ![Status](https://img.shields.io/badge/status-Speculative_model-orange.svg)
 ![Engine](https://img.shields.io/badge/engine-Geometric_Algebra_Cl_1,_4-green.svg)
 ![Gaps Closed](https://img.shields.io/badge/gaps_closed-4-success.svg)
@@ -380,6 +380,40 @@ $$\frac{d^2\theta}{dr^2} + \frac{2}{r}\frac{d\theta}{dr} = m_\theta^2\,\sin\thet
 With boundary conditions $\theta(0) = \pi/2$ (collapse of extra dimension) and $\theta(\infty) = 0$ (standard Kaluza-Klein vacuum), the minimum-energy solution is the **dimensional kink**:
 $$\theta_{\mathcal{N}}(r) = 2\arctan\left(\exp(-m_\theta r)\right)$$
 
+
+### Dark Node Mass: Bogomol'nyi Bound (BPS State)
+
+> [!NOTE]
+> **[NEW in V3.0.0.7 — Quantitative closure of Open Problem #3]:** V3.0.0.0 derived the *profile* of the kink. V3.0.0.7 derives its **mass**, converting the Dark Node into an entity with a measurable dynamical property.
+
+The functional energy (rest mass) of the kink is the Hamiltonian functional:
+
+$$M_{\mathcal{N}} = E = \int_{-\infty}^{\infty} \left[\frac{f_\theta^2}{2}\left(\frac{d\theta}{dr}\right)^{\!2} + V(\theta)\right] dr$$
+
+where $V(\theta) = m_\theta^2 f_\theta^2(1-\cos\theta)$ is the established Sine-Gordon potential.
+
+#### Bogomol'nyi Bound — First-Order Reduction
+
+The BPS first-order condition (equality in the energy lower bound):
+
+$$\boxed{\frac{d\theta}{dr} = \pm\sqrt{\frac{2V(\theta)}{f_\theta^2}}}$$
+
+#### Closed-Form Derivation of the Mass
+
+Applying the BPS condition and using $\sqrt{2(1-\cos\theta)} = 2\sin(\theta/2)$:
+
+> **[Result — Dark Node Mass (V3.0.0.7)]**
+>
+> $$\boxed{M_{\mathcal{N}} = 8\,m_\theta\,f_\theta}$$
+>
+> **Finite, derived, and quantifiable** mass. Depends exclusively on the bulk topological tension ($m_\theta$) and the compactification scale ($f_\theta \sim R_0^{-1}$). As compactification strengthens ($R_0 \to 0$), the Dark Node becomes heavier — consistent with heavy dark matter phenomenology.
+
+#### Quantised Topological Charge
+
+$$Q = \frac{1}{2\pi}\int_{-\infty}^{\infty}\frac{d\theta}{dr}\,dr = \pm 1 \in \mathbb{Z}$$
+
+Consistent with $\pi_1(S^1/\mathbb{Z}_2)=\mathbb{Z}$. Charge $Q=\pm 1$ distinguishes the Node from its anti-Node.
+
 ### The Dark Node
 
 Since $\dot{\theta}_{\mathcal{N}} \equiv 0$, the effective current is null:
@@ -451,7 +485,7 @@ $$\text{internal consistency} \;\not\Rightarrow\; \text{physical reality}$$
 | :--- | :--- |
 | 1 | **[CLOSED V3.0.0.0] Source $F_K(t)$** | Derived via Israel junction conditions. |
 | 2 | Full 5D stability analysis |
-| 3 | **[CLOSED V3.0.0.0] Topological Nodes** | Dimensional kink derived via radial Sine-Gordon. Dark Node ($\delta\mathbf{J}_{\text{eff}}=0$) predicted. |
+| 3 | **[CLOSED V3.0.0.0, extended V3.0.0.7] Topological Nodes** | Dimensional kink derived via radial Sine-Gordon. Dark Node ($\delta\mathbf{J}_{\text{eff}}=0$) predicted. |
 | 4 | Quantitative prediction for $\Delta B_{\text{Earth}}$ |
 | 5 | ALP parameter space consistency (ADMX/CAST/IAXO) |
 | 6 | Full bulk-brane coupling mechanism |
@@ -529,7 +563,7 @@ Under the temporal approximation $\nabla_4 a \approx -e_0 \dot{a}$, using $\star
 @software{sanchez_moreno_2026_pvav3000,
   author    = {Sanchez Moreno, Rodrigo Aldebarán},
   title     = {{5D Geometrodynamic Architecture on an S^1/Z_2 Orbifold: 3-Form Gauge Coupling, Selected Scalar Sector, Dimensional Reduction, Electromagnetic Coupling, Global Brane Response Mechanism and Transient Topological Signatures}},
-  version   = {3.0.0.0},
+  version   = {3.0.0.7},
   month     = aug,
   year      = 2026,
   publisher = {Zenodo},
@@ -539,7 +573,7 @@ Under the temporal approximation $\nabla_4 a \approx -e_0 \dot{a}$, using $\star
 ```
 
 **APA Format:**
-Sanchez Moreno, R. A. (2026). *5D Geometrodynamic Architecture on an S¹/ℤ₂ Orbifold: 3-Form Gauge Coupling, Selected Scalar Sector, Dimensional Reduction, Electromagnetic Coupling, Global Brane Response Mechanism and Transient Topological Signatures* (Version 3.0.0.0). Zenodo. https://doi.org/10.5281/zenodo.21900994
+Sanchez Moreno, R. A. (2026). *5D Geometrodynamic Architecture on an S¹/ℤ₂ Orbifold: 3-Form Gauge Coupling, Selected Scalar Sector, Dimensional Reduction, Electromagnetic Coupling, Global Brane Response Mechanism and Transient Topological Signatures* (Version 3.0.0.7). Zenodo. https://doi.org/10.5281/zenodo.21900994
 
 **Changes from V2.7.5 to V3.0.0.0**
 
@@ -549,6 +583,7 @@ Sanchez Moreno, R. A. (2026). *5D Geometrodynamic Architecture on an S¹/ℤ₂ 
 | Explicit $Z_a$ Derivation | Linked 4D kinetic term to 5D topological profile average (Gap I). |
 | Global Response Mechanism | Explained simultaneous signals via fibre background deformation (Gap II). |
 | Klein Bubble Algebra | Formalised compact topological defects using $Cl_{1,4}^+$ rotors (Gap III). |
+
 
 ## License
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
